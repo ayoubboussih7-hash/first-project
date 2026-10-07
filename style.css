@@ -561,6 +561,7 @@ button:focus-visible {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0px 40px 30px 30px;
 }
 
 .inp p {
@@ -596,13 +597,21 @@ button:focus-visible {
     color: black;
 }
 
-.bot {
-    color: white;
-    padding: 0 10px;
-    height: 30px;
-    border-radius: 10px;
-    border: none;
+.cente {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.bot {
+    background-color: orange;
+    color: black;
+    height: 40px;
+    width: 70px;
+    border-radius: 60px;
+    padding: 0px 20px;
+}
+
+.kk {
+    background-image: "/img/boxe.jpn";
 }
