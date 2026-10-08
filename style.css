@@ -207,12 +207,6 @@ button:focus-visible {
     color: #FF6B2C;
 }
 
-.menu .lien-actif {
-    color: black;
-    font-weight: 600;
-    border-bottom-color: #FF6B2C;
-}
-
 .hero {
     padding: 64px 0 96px;
 }
@@ -549,87 +543,91 @@ button:focus-visible {
     color: #94A3B8;
 }
 
-.inp {
-    display: flex;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.kk {
+    font-family: 'Outfit';
 }
 
-.conta h1 {
+.contact-container {
+    height: 100vh;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: space-evenly;
 }
 
-.inp p {
+.contact-left {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+
+.contact-left-title h2 {
+    font-weight: 600;
     color: black;
-    padding: 30px 0px;
-    border-radius: 70px;
-    width: 50px;
+    font-size: 40px;
+    margin-bottom: 7px;
 }
 
-.inp input {
-    background-color: white;
-    color: rgb(0, 0, 0);
-    width: 400px;
-    height: 40px;
-    border-radius: 70px;
-}
-
-.inp svg {
-    width: 40px;
-    padding: 3px 3px;
-}
-
-.inpo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.inpo input {
-    background-color: white;
-    color: black;
+.contact-left-title hr {
+    border: none;
+    width: 290;
+    height: 5px;
+    background-color: orange;
+    margin-bottom: 20px;
     border-radius: 50px;
-    padding: 150px;
-    padding: 7;
 }
 
-.inpo p {
-    color: black;
+#sur-titre {
+    color: #FF6B2C;
 }
 
-.inpo svg {
-    width: 40px;
-    padding: 3px 3px;
+.contact-inputs {
+    width: 400px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    color: gray;
+    border-radius: 8px;
 }
 
-.cente {
+.contact-left textarea {
+    height: 140px;
+    padding-top: 15px;
+    border-radius: 20px;
+}
+
+.contact-inputs:focus {
+    border: 2px solid orange
+}
+
+.contact-inputs::placeholder {
+    color: rgb(138, 81, 6);
+}
+
+.contact-left button {
     display: flex;
-    justify-content: center;
     align-items: center;
+    padding: 12px 30px;
+    font-size: 16px;
+    color: white;
+    gap: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: #FF6B2C;
+    cursor: pointer;
 }
 
-.bot {
-    background-color: rgb(201, 116, 12);
-    color: black;
-    height: 40px;
-    width: 70px;
-    border-radius: 40px;
-    padding: 0px 20px;
+.contact-rigth img {
+    width: 300px;
 }
 
-.cente button:hover {
-    background-color: #f0880a;
+.contact-left button:hover {
+    background-color: #fb7900;
 }
 
-.wast {}
-
-.wast {
-    background-color: grey;
-    height: 500px;
-    width: 600px;
-    border-radius: 40px;
+#mem {
+    height: 200px;
+    padding: 0px 25px 120px;
 }
