@@ -207,6 +207,11 @@ button:focus-visible {
     color: #FF6B2C;
 }
 
+.menu .lien-actif {
+    color: #FF6B2C;
+    border-bottom-color: #FF6B2C;
+}
+
 .hero {
     padding: 64px 0 96px;
 }
