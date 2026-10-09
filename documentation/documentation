@@ -1,0 +1,122 @@
+
+1. Les balises sémantiques
+
+Les balises sémantiques permettent d'organiser la page HTML et de rendre sa structure plus claire.
+
+Exemples : <header>, <footer>, <nav>, <main>, <section> et <article>.
+
+
+2. Les types de balises
+
+ existe deux types de balises :
+
+Balises avec ouverture et fermeture : comme <p></p> et <div></div>.
+Balises sans fermeture séparée : comme <img> et <br>.
+
+3. La déclaration HTML
+
+<!DOCTYPE html> se place au début du document pour indiquer qu'il s'agit d'un document HTML5.
+
+
+ 4. La différence entre class et id
+
+class : permet de sélectionner plusieurs éléments. En CSS, on utilise `.` pour la sélectionner.
+id : permet d'identifier un élément unique dans la page. En CSS, on utilise `#` pour le sélectionner.
+
+Exemples : .titre et #menu.
+
+ 5. L'intégration d'un fichier CSS externe
+
+La balise <link> permet de relier un fichier CSS à une page HTML.
+
+Exemple :
+
+<link rel="stylesheet" href="style.css">
+
+rel="stylesheet" : indique que le fichier est une feuille de style.
+href="style.css" : indique le chemin du fichier CSS.
+
+Objectif : séparer le contenu HTML du style CSS pour faciliter l'organisation et la modification du design.
+
+ 6. L'insertion d'une image
+
+La balise <img> permet d'afficher une image dans une page HTML.
+
+Exemple :
+
+<img src="./img/image.png" alt="Description de l'image">
+
+src : indique le chemin de l'image.
+alt : donne une description de l'image si elle ne s'affiche pas et améliore l'accessibilité.
+
+
+7. Les attributs width et height
+
+width : définit la largeur d'une image.
+height : définit la hauteur d'une image.
+
+
+8. La balise div
+
+La balise <div> permet de regrouper plusieurs éléments dans un même bloc.
+
+Objectif : organiser le contenu et appliquer du CSS à un groupe d'éléments.
+
+
+ 9. La balise a
+
+La balise <a> permet de créer un lien vers une autre page ou une autre ressource.
+
+Exemple :
+
+<a href="Accueil.html">Accueil</a>
+href : indique la destination du lien.
+Accueil : représente le texte cliquable.
+
+Objectif : permettre à l'utilisateur de naviguer entre les pages.
+
+
+ 10. La balise nav
+
+La balise <nav> permet de regrouper les liens de navigation d'un site web.
+
+Objectif : faciliter la navigation entre les différentes pages.
+
+
+ 11. La balise ul
+
+La balise <ul> permet de créer une liste non ordonnée, généralement affichée avec des puces.
+
+ 12. La balise li
+
+La balise <li> représente un élément d'une liste.
+
+Elle est généralement utilisée avec <ul> ou <ol>.
+
+
+ 13. La balise main
+
+La balise <main> contient le contenu principal de la page.
+
+Objectif : identifier clairement la partie principale du contenu.
+
+
+14. La balise section
+
+La balise <section> permet de regrouper des éléments qui traitent du même sujet.
+
+Objectif : organiser la page en différentes parties.
+
+
+
+15. La balise article
+
+La balise <article> représente un contenu qui peut être compris et utilisé indépendamment du reste de la page.
+
+Exemples : un article de blog, une actualité ou une publication.
+
+ 16. La balise span
+
+La balise <span> permet de sélectionner une petite partie du texte pour lui appliquer un style CSS particulier.
+
+Objectif : modifier le style d'un mot ou d'une partie du texte sans créer un nouveau bloc.

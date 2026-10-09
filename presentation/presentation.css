@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-image: url('/img/dark2.png');
+}
+
+.Premier-jour {
+    color: white;
+    padding: 40px 0px 100px 550px;
+    border: 3px;
+}
+
+.premier {
+    color: white;
+    padding: 10px 0px 0px 100px;
+}
+
+.but {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+
+.bouton {
+    display: inline-block;
+    background-color: rgb(72, 72, 241);
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.bouton {
+    background-color: blue;
+}
